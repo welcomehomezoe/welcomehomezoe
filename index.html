@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Number 1</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+  </head>
+  <body>
+    <section id="intro">
+        <div class="child">
+            <h1>The Welcome Home Games</h1>
+            <p>Welcome home sweetheart! These games have been designed out of my imagination going wild whilst you were away. As with all games, there are some rules which must be obeyed.</p>
+            <ul>
+                <li>Game 1 must be played and completed before the other games can be unlocked.</li>
+                <li>Game 2 - 6 can be played in the order and time of your choice, but <strong>at least one game</strong> must be played every day.</li>
+                <li>The game starts when the uniform of choice is put on, and continues until both agree completed.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="game1">
+        <div class="child">
+            <h1>Game 1</h1>
+            <h1>The Dominatrix</h1>
+            <p>As punishment for abandoning your husband for so long, this first game is my reward.</p>
+            <p>Pull on outfit number one, fishnet, heals and all.</p>
+            <p>Use any items at your disposale. Whip me, tease me, tie me up, beat me up, suck me, lick me, bring me to the edge, but whatever you ... dont let me cum. At least for as long as you can!</p>
+            <p>Check when completed to unlock the next games <input type="checkbox" class="my-checkbox-x2" id="myCheck" value="1" onclick="checking()" /></p>
+        </div>
+    </section>
+
+    <section id="game2"  class="hidden">
+        <div class="child">
+            <h1>Game 2</h1>
+            <h1>The Lonely House Wife</h1>
+            <p>In this game, you are the lonely house wife, thats been away from her husband for a long time.</p>
+            <p>Your feeling frustrated, and horny.</p>
+            <p>Your decide to pull on your sexy dress, and visit the local spa for a massage. Hoping your will get lucky, and get a happy ending from the handsom masseur. Or perhaps even more ...</p>
+        </div>
+    </section>
+
+    <section id="game3" class="hidden">
+        <div class="child">
+            <h1>Game 3</h1>
+            <h1>The Naughty School Girl</h1>
+            <p>This game has 2 flavours! Take your pick....</p>
+            <h1>The Red Uniform</h1>
+            <p>You are a very badly behaved school girl.  You've been skipping classes, turning up late, not doing your homework, and not paying attention is class.</p>
+            <p>You have been sent to the head masters office for punishment. Be warned, it may hurt...</p>
+            <h1>The Blue Uniform.</h1>
+            <p>You have been falling behind in your work, your grades are lower than what your partents expect and they are very dissapointed. You think you just flunked the recent test.</p>
+            <p>You decide to visit the teachers house, after dark, to try and persaude him to change your grade. You will do anything; your desperate. </p>
+        </div>
+    </section>
+
+    <section id="game4" class="hidden">
+        <div class="child">
+            <h1>Game 4</h1>
+            <h1>The Flight Attendant</h1>
+            <p>Your a flight attendant in the first class cabin. A famous Scottish actor is flying with you today, one whom you have had a crush on since you were young.</p>
+            <p>You can't miss out on an opportunity like this. You are extra attentive to this passanger, bringing him drinks and his meal, flirting as much as you can.</p>
+            <p>If you get your wicked way, you might be able to get him in the restroom for a quickie, and join the mile high club before you land!</p>
+        </div>
+    </section>
+
+    <section id="game5" class="hidden">
+        <div class="child">
+            <h1>Game 5</h1>
+            <h1>Lets Party</h1>
+            <p>Your at a friends house party, all dressed up in your sexies clubbing dress and looking for a handsome fella.</p>
+            <p>You meet a nice guy and find a quite place, your drink, you dance, you talk, you laugh you drink some more.</p>
+            <p>Maybe there is a quiet bedroom somewhere in this place thats not being used...</p>
+            <p>In this game, you choose my outfit. Anything you want.</p>
+        </div>
+    </section>
+
+    <section id="game6" class="hidden">
+        <div class="child">
+            <h1>Game 6</h1>
+            <h1>Your Turn!</h1>
+            <p>This game is up to you, entirely.</p>
+            <p>Choose your outfit, or choose mine.</p>
+            <p>Let your imangination run wild, live out a fantasy, or make a a new one up. Or just keep it simple and vanilia. Its up to you.</p>
+            <p>But you need to let me know when game 6 begins!</p>
+        </div>
+    </section>
+
+    <script>
+        function checking() {
+          var checkBox = document.getElementById("myCheck");
+          var text = document.getElementById("text");
+          if (checkBox.checked == true){
+            document.getElementsByClassName("hidden")[0].style.display = "block";
+            document.getElementsByClassName("hidden")[1].style.display = "block";
+            document.getElementsByClassName("hidden")[2].style.display = "block";
+            document.getElementsByClassName("hidden")[3].style.display = "block";
+            document.getElementsByClassName("hidden")[4].style.display = "block";
+            document.getElementsByClassName("hidden")[5].style.display = "block";
+
+          } else {
+            document.getElementsByClassName("hidden")[0].style.display = "none";
+            document.getElementsByClassName("hidden")[1].style.display = "none";
+            document.getElementsByClassName("hidden")[2].style.display = "none";
+            document.getElementsByClassName("hidden")[3].style.display = "none";
+            document.getElementsByClassName("hidden")[4].style.display = "none";
+            document.getElementsByClassName("hidden")[5].style.display = "none";
+          }
+        }
+        </script>
+
+  </body>
+</html>
