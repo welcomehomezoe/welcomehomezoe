@@ -42,11 +42,17 @@ body {
         width: 100%;
     }
     p, ul {
-        font-size: 0.8em !important;
+        font-size: 0.6em !important;
     }
+    h1 {
+        font-size: 1em !important;
+      }
 
   }
 
+  h1 {
+    font-size: 1.5em;
+  }
 
 
 html, body {
